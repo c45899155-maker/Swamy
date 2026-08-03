@@ -106,3 +106,35 @@ transition:0.3s;
 .card:hover{
 transform:translateY(-8px);
 }
+.live-score{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.score-card{
+    background:#1f2937;
+    padding:25px;
+    border-radius:20px;
+    max-width:600px;
+    margin:auto;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+.score-card h2{
+    color:#FFD700;
+}
+
+#match{
+    color:white;
+    margin-top:10px;
+}
+
+#score{
+    color:#00ff88;
+    font-size:40px;
+    margin:15px 0;
+}
+
+#status{
+    color:#ddd;
+}
